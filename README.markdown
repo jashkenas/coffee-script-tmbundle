@@ -6,6 +6,7 @@ Currently, the available features on the bundle are :
 
 - Snippets for conditional statements, loops, comprehensions, functions and classes.
 - Language syntax (includes embedded code)
+- Run script commands
 
 You see there isn't much for now, but already enough to make your everyday programming a real fun.
 
