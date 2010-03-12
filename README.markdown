@@ -14,4 +14,4 @@ You see there isn't much for now, but already enough to make your everyday progr
 Assuming your textmate installation is standard, so that your bundles are installed in `~/Library/Application Support/Textmate/bundles`, you can clone the repo and use it right away by doing :
 
     $ cd path/to/the/cloned/repos
-    $ ln -fs `pwd` ~/Library/Application\ Support/Textmate/bundles/
+    $ ln -fs `pwd` ~/Library/Application\ Support/Textmate/bundles/coffee-script.tmbundle
