@@ -3,17 +3,15 @@
 <plist version="1.0">
 <dict>
 	<key>content</key>
-	<string>${1:name}: (${2:args}) -&gt;
-  ${0:# body...}
-
-</string>
+	<string>for ${1:key}, ${2:value} of ${3:Object}
+  ${0:# body...}</string>
 	<key>name</key>
-	<string>Function</string>
+	<string>Object comprehension</string>
 	<key>scope</key>
 	<string>source.coffee</string>
 	<key>tabTrigger</key>
-	<string>fun</string>
+	<string>foro</string>
 	<key>uuid</key>
-	<string>F2E2E79A-A85D-471D-9847-72AE40205942</string>
+	<string>9D126CC5-EA14-4A40-B6D3-6A5FC1AC1420</string>
 </dict>
 </plist>

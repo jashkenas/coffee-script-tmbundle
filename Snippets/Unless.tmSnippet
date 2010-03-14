@@ -3,17 +3,14 @@
 <plist version="1.0">
 <dict>
 	<key>content</key>
-	<string>${1:name}: (${2:args}) -&gt;
-  ${0:# body...}
-
-</string>
+	<string>${1:action} unless ${2:condition}</string>
 	<key>name</key>
-	<string>Function</string>
+	<string>Unless</string>
 	<key>scope</key>
 	<string>source.coffee</string>
 	<key>tabTrigger</key>
-	<string>fun</string>
+	<string>un</string>
 	<key>uuid</key>
-	<string>F2E2E79A-A85D-471D-9847-72AE40205942</string>
+	<string>E561AECD-5933-4F59-A6F7-FA96E1203606</string>
 </dict>
 </plist>

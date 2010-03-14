@@ -7,7 +7,7 @@
 	<key>command</key>
 	<string>cat &lt;&lt;SNIPPET
 ${TM_SELECTED_TEXT:-$TM_CURRENT_WORD}: (\${1:args}) -&gt;
-	\$0
+  \$0
 
 SNIPPET</string>
 	<key>fallbackInput</key>
@@ -15,7 +15,8 @@ SNIPPET</string>
 	<key>input</key>
 	<string>selection</string>
 	<key>keyEquivalent</key>
-	<string>$</string>
+	<string>$
+</string>
 	<key>name</key>
 	<string>New Function</string>
 	<key>output</key>
@@ -23,6 +24,6 @@ SNIPPET</string>
 	<key>scope</key>
 	<string>source.coffee</string>
 	<key>uuid</key>
-	<string>C5717DF2-7113-472F-B1AD-4623480C578A</string>
+	<string>192428A1-8684-4172-8728-225B4C9E532F</string>
 </dict>
 </plist>

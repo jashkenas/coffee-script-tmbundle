@@ -3,17 +3,15 @@
 <plist version="1.0">
 <dict>
 	<key>content</key>
-	<string>${1:name}: (${2:args}) -&gt;
-  ${0:# body...}
-
-</string>
+	<string>for ${1:name} in [${2:start}...${3:finish}]${4: by ${5:step}}
+  ${0:# body...}</string>
 	<key>name</key>
-	<string>Function</string>
+	<string>Range comprehension (exclusive)</string>
 	<key>scope</key>
 	<string>source.coffee</string>
 	<key>tabTrigger</key>
-	<string>fun</string>
+	<string>forrex</string>
 	<key>uuid</key>
-	<string>F2E2E79A-A85D-471D-9847-72AE40205942</string>
+	<string>FA6AB9BF-3444-4A8C-B010-C95C2CF5BAB3</string>
 </dict>
 </plist>

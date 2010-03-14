@@ -3,14 +3,17 @@
 <plist version="1.0">
 <dict>
 	<key>content</key>
-	<string>\${${1:$TM_SELECTED_TEXT}}</string>
-	<key>keyEquivalent</key>
-	<string>$</string>
+	<string>try
+  $1
+catch ${2:error}
+  $3</string>
 	<key>name</key>
-	<string>Embedded Code — ${…}</string>
+	<string>Try .. Catch</string>
 	<key>scope</key>
-	<string>string.quoted.double.coffee - string source</string>
+	<string>source.coffee</string>
+	<key>tabTrigger</key>
+	<string>try</string>
 	<key>uuid</key>
-	<string>17C8BFF6-25F2-4F00-8E7E-768D3D186A23</string>
+	<string>CAFB0DED-5E23-4A84-AC20-87FBAF22DBAC</string>
 </dict>
 </plist>

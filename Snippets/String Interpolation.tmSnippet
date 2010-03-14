@@ -3,17 +3,14 @@
 <plist version="1.0">
 <dict>
 	<key>content</key>
-	<string>${1:name}: (${2:args}) -&gt;
-  ${0:# body...}
-
-</string>
+	<string>\${${1:$TM_SELECTED_TEXT}}</string>
+	<key>keyEquivalent</key>
+	<string>$</string>
 	<key>name</key>
-	<string>Function</string>
+	<string>String Interpolation</string>
 	<key>scope</key>
-	<string>source.coffee</string>
-	<key>tabTrigger</key>
-	<string>fun</string>
+	<string>string.quoted.double.coffee - string source</string>
 	<key>uuid</key>
-	<string>F2E2E79A-A85D-471D-9847-72AE40205942</string>
+	<string>17C8BFF6-25F2-4F00-8E7E-768D3D186A23</string>
 </dict>
 </plist>

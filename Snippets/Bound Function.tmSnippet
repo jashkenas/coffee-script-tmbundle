@@ -3,17 +3,15 @@
 <plist version="1.0">
 <dict>
 	<key>content</key>
-	<string>${1:name}: (${2:args}) -&gt;
-  ${0:# body...}
-
-</string>
+	<string>${1:(${2:args}) }=&gt;
+  ${0:# body...}</string>
 	<key>name</key>
-	<string>Function</string>
+	<string>Function (bound)</string>
 	<key>scope</key>
 	<string>source.coffee</string>
 	<key>tabTrigger</key>
-	<string>fun</string>
+	<string>bfun</string>
 	<key>uuid</key>
-	<string>F2E2E79A-A85D-471D-9847-72AE40205942</string>
+	<string>20BDC055-ED67-4D0E-A47F-ADAA828EFF2B</string>
 </dict>
 </plist>

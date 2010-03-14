@@ -3,17 +3,18 @@
 <plist version="1.0">
 <dict>
 	<key>content</key>
-	<string>${1:name}: (${2:args}) -&gt;
-  ${0:# body...}
+	<string>class ${1:ClassName}${2: extends ${3:Ancestor}}
 
-</string>
+  ${4:constructor: (${5:args}) -&gt;
+    ${6:# body...}}
+  $7</string>
 	<key>name</key>
-	<string>Function</string>
+	<string>Class</string>
 	<key>scope</key>
 	<string>source.coffee</string>
 	<key>tabTrigger</key>
-	<string>fun</string>
+	<string>class</string>
 	<key>uuid</key>
-	<string>F2E2E79A-A85D-471D-9847-72AE40205942</string>
+	<string>765ACBD3-380A-4CF8-9111-345A36A0DAE7</string>
 </dict>
 </plist>
