@@ -3,7 +3,7 @@
 <plist version="1.0">
 <dict>
 	<key>content</key>
-	<string>\`$1\`</string>
+	<string>\`${1:`pbpaste`}\`</string>
 	<key>keyEquivalent</key>
 	<string>^j</string>
 	<key>name</key>
