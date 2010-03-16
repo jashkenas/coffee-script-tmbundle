@@ -12,7 +12,7 @@ else
 	<key>scope</key>
 	<string>source.coffee</string>
 	<key>tabTrigger</key>
-	<string>ifel</string>
+	<string>ife</string>
 	<key>uuid</key>
 	<string>2AD19F12-E499-4715-9A47-FC8D594BC550</string>
 </dict>

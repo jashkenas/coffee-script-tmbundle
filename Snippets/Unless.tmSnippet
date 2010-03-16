@@ -9,7 +9,7 @@
 	<key>scope</key>
 	<string>source.coffee</string>
 	<key>tabTrigger</key>
-	<string>un</string>
+	<string>unl</string>
 	<key>uuid</key>
 	<string>E561AECD-5933-4F59-A6F7-FA96E1203606</string>
 </dict>
