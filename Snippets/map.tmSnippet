@@ -3,14 +3,15 @@
 <plist version="1.0">
 <dict>
 	<key>content</key>
-	<string>${1:action} unless ${2:condition}</string>
+	<string>map (${1:i}) -&gt;
+	$1$0</string>
 	<key>name</key>
-	<string>Unless</string>
+	<string>map</string>
 	<key>scope</key>
 	<string>source.coffee</string>
 	<key>tabTrigger</key>
-	<string>unl</string>
+	<string>map</string>
 	<key>uuid</key>
-	<string>E561AECD-5933-4F59-A6F7-FA96E1203606</string>
+	<string>39D8982E-7FF8-412C-912A-FE0A0F4A7A35</string>
 </dict>
 </plist>
