@@ -6,7 +6,10 @@
 	<string>nop</string>
 	<key>command</key>
 	<string>#!/bin/bash
-coffee -s</string>
+
+echo "&lt;pre&gt;"
+coffee -s
+echo "&lt;/pre&gt;"</string>
 	<key>input</key>
 	<string>selection</string>
 	<key>keyEquivalent</key>
