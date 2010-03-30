@@ -71,7 +71,7 @@
 		</dict>
 		<dict>
 			<key>begin</key>
-			<string>("""|''')</string>
+			<string>'''</string>
 			<key>beginCaptures</key>
 			<dict>
 				<key>0</key>
@@ -81,7 +81,7 @@
 				</dict>
 			</dict>
 			<key>end</key>
-			<string>("""|''')</string>
+			<string>'''</string>
 			<key>endCaptures</key>
 			<dict>
 				<key>0</key>
@@ -92,6 +92,43 @@
 			</dict>
 			<key>name</key>
 			<string>string.quoted.heredoc.coffee</string>
+		</dict>
+		<dict>
+			<key>begin</key>
+			<string>"""</string>
+			<key>beginCaptures</key>
+			<dict>
+				<key>0</key>
+				<dict>
+					<key>name</key>
+					<string>punctuation.definition.string.begin.coffee</string>
+				</dict>
+			</dict>
+			<key>end</key>
+			<string>"""</string>
+			<key>endCaptures</key>
+			<dict>
+				<key>0</key>
+				<dict>
+					<key>name</key>
+					<string>punctuation.definition.string.end.coffee</string>
+				</dict>
+			</dict>
+			<key>name</key>
+			<string>string.quoted.heredoc.coffee</string>
+			<key>patterns</key>
+			<array>
+				<dict>
+					<key>match</key>
+					<string>\\.</string>
+					<key>name</key>
+					<string>constant.character.escape.coffee</string>
+				</dict>
+				<dict>
+					<key>include</key>
+					<string>#interpolated_coffee</string>
+				</dict>
+			</array>
 		</dict>
 		<dict>
 			<key>begin</key>
