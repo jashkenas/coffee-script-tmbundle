@@ -7,7 +7,7 @@
 	<key>command</key>
 	<string>#!/bin/bash
 
-echo "&lt;pre&gt;"
+echo "&lt;pre style='font-family:Monaco; font-size: 20px;'&gt;"
 coffee -s
 echo "&lt;/pre&gt;"</string>
 	<key>input</key>

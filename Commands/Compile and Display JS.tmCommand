@@ -7,19 +7,22 @@
 	<key>command</key>
 	<string>#!/bin/bash
 
-coffee -s
-</string>
+echo "&lt;pre style='font-family:Monaco; font-size: 20px;'&gt;"
+coffee -scp --no-wrap
+echo "&lt;/pre&gt;"</string>
+	<key>fallbackInput</key>
+	<string>document</string>
 	<key>input</key>
 	<string>selection</string>
 	<key>keyEquivalent</key>
-	<string>@R</string>
+	<string>@b</string>
 	<key>name</key>
-	<string>Run selected text</string>
+	<string>Compile and Display JS</string>
 	<key>output</key>
-	<string>showAsTooltip</string>
+	<string>showAsHTML</string>
 	<key>scope</key>
 	<string>source.coffee</string>
 	<key>uuid</key>
-	<string>90424631-D00B-448C-B157-DAC92DFB2858</string>
+	<string>D749F761-1740-4918-9490-90DF376BA72E</string>
 </dict>
 </plist>
