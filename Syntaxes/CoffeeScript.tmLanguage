@@ -164,6 +164,22 @@
 			</array>
 		</dict>
 		<dict>
+			<key>begin</key>
+			<string>###</string>
+			<key>captures</key>
+			<dict>
+				<key>0</key>
+				<dict>
+					<key>name</key>
+					<string>punctuation.definition.comment.coffee</string>
+				</dict>
+			</dict>
+			<key>end</key>
+			<string>###</string>
+			<key>name</key>
+			<string>comment.block.coffee</string>
+		</dict>
+		<dict>
 			<key>captures</key>
 			<dict>
 				<key>1</key>
@@ -216,7 +232,7 @@
 		</dict>
 		<dict>
 			<key>match</key>
-			<string>\b(break|by|catch|continue|else|finally|for|in|of|if|return|switch|then|throw|try|unless|when|while)\b</string>
+			<string>\b(break|by|catch|continue|else|finally|for|in|of|if|return|switch|then|throw|try|unless|when|while|until)\b</string>
 			<key>name</key>
 			<string>keyword.control.coffee</string>
 		</dict>
