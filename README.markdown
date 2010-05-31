@@ -9,11 +9,8 @@ Installation:
     cd ~/Library/Application\ Support/TextMate/Bundles
     git clone git://github.com/jashkenas/coffee-script-tmbundle CoffeeScript.tmbundle
 
-The bundle is not yet complete. It includes:
+The bundle includes syntax highlighting, the ability to compile or evaluate CoffeeScript inline, convenient symbol listing for functions, and a number of expando snippets.
 
-  - Snippets for conditional expressions, loops, comprehensions, functions and classes.
-  - Syntax highlighting.
-  - Shortcuts for running coffeescripts.
+Patches for additions are always welcome.
 
-Patches for additional snippets and shortcuts are always welcome.
-
+![screenshot](http://jashkenas.s3.amazonaws.com/images/coffeescript/textmate-highlighting.png)
