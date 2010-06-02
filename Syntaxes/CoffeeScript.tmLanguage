@@ -165,7 +165,7 @@
 		</dict>
 		<dict>
 			<key>begin</key>
-			<string>###(?!#)</string>
+			<string>###(?!#)[ \t]*\n</string>
 			<key>captures</key>
 			<dict>
 				<key>0</key>
