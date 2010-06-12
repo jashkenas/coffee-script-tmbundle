@@ -232,7 +232,7 @@
 		</dict>
 		<dict>
 			<key>match</key>
-			<string>\b(break|by|catch|continue|else|finally|for|in|of|if|return|switch|then|throw|try|unless|when|while|until)\b</string>
+			<string>\b(break|by|catch|continue|else|finally|for|in|of|if|return|switch|then|throw|try|unless|when|while|until|loop)\b</string>
 			<key>name</key>
 			<string>keyword.control.coffee</string>
 		</dict>
