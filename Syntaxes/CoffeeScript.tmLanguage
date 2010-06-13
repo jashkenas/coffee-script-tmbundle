@@ -124,10 +124,6 @@
 					<key>name</key>
 					<string>constant.character.escape.coffee</string>
 				</dict>
-				<dict>
-					<key>include</key>
-					<string>#interpolated_coffee</string>
-				</dict>
 			</array>
 		</dict>
 		<dict>
@@ -194,41 +190,10 @@
 			<string>comment.line.coffee</string>
 		</dict>
 		<dict>
-			<key>begin</key>
-			<string>(?&lt;=[=(:\s]|^|return)\s*(/)(?![\s/*+{}?])</string>
-			<key>beginCaptures</key>
-			<dict>
-				<key>1</key>
-				<dict>
-					<key>name</key>
-					<string>punctuation.definition.string.begin.coffee</string>
-				</dict>
-			</dict>
-			<key>end</key>
-			<string>(/)[igmy]*</string>
-			<key>endCaptures</key>
-			<dict>
-				<key>1</key>
-				<dict>
-					<key>name</key>
-					<string>punctuation.definition.string.end.coffee</string>
-				</dict>
-			</dict>
+			<key>match</key>
+			<string>(?&lt;!\d)\s*/(?![\s/*+{}?]).*/[igmy]*</string>
 			<key>name</key>
 			<string>string.regexp.coffee</string>
-			<key>patterns</key>
-			<array>
-				<dict>
-					<key>match</key>
-					<string>\\.</string>
-					<key>name</key>
-					<string>constant.character.escape.coffee</string>
-				</dict>
-				<dict>
-					<key>include</key>
-					<string>#interpolated_coffee</string>
-				</dict>
-			</array>
 		</dict>
 		<dict>
 			<key>match</key>
