@@ -197,7 +197,7 @@
 		</dict>
 		<dict>
 			<key>match</key>
-			<string>\b(break|by|catch|continue|else|finally|for|in|of|if|return|switch|then|throw|try|unless|when|while|until|loop)\b</string>
+			<string>\b(?&lt;!\.)(break|by|catch|continue|else|finally|for|in|of|if|return|switch|then|throw|try|unless|when|while|until|loop)(?!\s*:)\b</string>
 			<key>name</key>
 			<string>keyword.control.coffee</string>
 		</dict>
@@ -284,25 +284,25 @@
 		</dict>
 		<dict>
 			<key>match</key>
-			<string>\b(true|on|yes)\b</string>
+			<string>\b(?&lt;!\.)(true|on|yes)(?!\s*:)\b</string>
 			<key>name</key>
 			<string>constant.language.boolean.true.coffee</string>
 		</dict>
 		<dict>
 			<key>match</key>
-			<string>\b(false|off|no)\b</string>
+			<string>\b(?&lt;!\.)(false|off|no)(?!\s*:)\b</string>
 			<key>name</key>
 			<string>constant.language.boolean.false.coffee</string>
 		</dict>
 		<dict>
 			<key>match</key>
-			<string>\bnull\b</string>
+			<string>\b(?&lt;!\.)null(?!\s*:)\b</string>
 			<key>name</key>
 			<string>constant.language.null.coffee</string>
 		</dict>
 		<dict>
 			<key>match</key>
-			<string>\b(super|this|extends)\b</string>
+			<string>\b(?&lt;!\.)(super|this|extends)(?!\s*:)\b</string>
 			<key>name</key>
 			<string>variable.language.coffee</string>
 		</dict>
