@@ -335,7 +335,7 @@
 				</dict>
 			</dict>
 			<key>match</key>
-			<string>(class)(\s+[a-zA-Z\$_]\w+)?(\s+(extends)\s+[a-zA-Z\$_]\w*)?</string>
+			<string>(class)\s+([a-zA-Z\$_]\w+)?(\s+(extends)\s+[a-zA-Z\$_]\w*)?</string>
 			<key>name</key>
 			<string>meta.class.coffee</string>
 		</dict>
