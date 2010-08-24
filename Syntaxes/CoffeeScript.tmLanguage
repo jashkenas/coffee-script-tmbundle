@@ -195,7 +195,7 @@
 		</dict>
 		<dict>
 			<key>match</key>
-			<string>(?&lt;!\d)\s*/(?![\s/*+{}?]).*?/[igmy]*</string>
+			<string>(?&lt;!\d)\s*/(?![\s/*+{}?]).*?[^\\]/[igmy]*</string>
 			<key>name</key>
 			<string>string.regexp.coffee</string>
 		</dict>
