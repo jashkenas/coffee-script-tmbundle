@@ -165,7 +165,7 @@
 		</dict>
 		<dict>
 			<key>begin</key>
-			<string>###(?!#)[ \t]*\n</string>
+			<string>###(?!#)</string>
 			<key>captures</key>
 			<dict>
 				<key>0</key>
@@ -175,7 +175,7 @@
 				</dict>
 			</dict>
 			<key>end</key>
-			<string>###</string>
+			<string>###[ \t]*\n</string>
 			<key>name</key>
 			<string>comment.block.coffee</string>
 		</dict>
