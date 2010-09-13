@@ -7,8 +7,8 @@
 	<key>command</key>
 	<string>#!/bin/bash
 
-echo "&lt;pre style='font-family:Monaco; font-size: 20px;'&gt;"
-coffee -scp --no-wrap
+echo "&lt;pre style='font-family:Menlo; font-size: 14px;'&gt;"
+coffee -scp --no-wrap | sed 's/&lt;/\&amp;lt;/g' | sed 's/&gt;/\&amp;gt;/g'
 echo "&lt;/pre&gt;"</string>
 	<key>fallbackInput</key>
 	<string>document</string>
