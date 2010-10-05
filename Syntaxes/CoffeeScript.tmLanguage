@@ -194,8 +194,16 @@
 			<string>comment.line.coffee</string>
 		</dict>
 		<dict>
+			<key>begin</key>
+			<string>/{3}</string>
+			<key>end</key>
+			<string>/{3}</string>
+			<key>name</key>
+			<string>string.regexp.coffee</string>
+		</dict>
+		<dict>
 			<key>match</key>
-			<string>(?&lt;!\d)\s*/(?![\s/*+{}?]).*?[^\\]/[igmy]*</string>
+			<string>(?&lt;!\d)\s*/(?![\s/*+{}?]).*?[^\\]/[igmy]{0,4}</string>
 			<key>name</key>
 			<string>string.regexp.coffee</string>
 		</dict>
