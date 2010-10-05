@@ -200,6 +200,17 @@
 			<string>/{3}[imgy]{0,4}</string>
 			<key>name</key>
 			<string>string.regexp.coffee</string>
+			<key>patterns</key>
+			<array>
+				<dict>
+					<key>include</key>
+					<string>#interpolated_coffee</string>
+				</dict>
+				<dict>
+					<key>include</key>
+					<string>#embedded_comment</string>
+				</dict>
+			</array>
 		</dict>
 		<dict>
 			<key>match</key>
@@ -470,6 +481,26 @@
 							<string>#interpolated_coffee</string>
 						</dict>
 					</array>
+				</dict>
+			</array>
+		</dict>
+		<key>embedded_comment</key>
+		<dict>
+			<key>patterns</key>
+			<array>
+				<dict>
+					<key>captures</key>
+					<dict>
+						<key>1</key>
+						<dict>
+							<key>name</key>
+							<string>punctuation.definition.comment.coffee</string>
+						</dict>
+					</dict>
+					<key>match</key>
+					<string>(#).*$\n?</string>
+					<key>name</key>
+					<string>comment.line.coffee</string>
 				</dict>
 			</array>
 		</dict>
