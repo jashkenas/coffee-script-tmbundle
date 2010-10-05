@@ -231,7 +231,7 @@
 		</dict>
 		<dict>
 			<key>begin</key>
-			<string>(?&lt;=\s|^)(\[)(?=.*?\]\s+[:=])</string>
+			<string>(?&lt;=\s|^)([\[\{])(?=.*?[\]\}]\s+[:=])</string>
 			<key>beginCaptures</key>
 			<dict>
 				<key>0</key>
@@ -241,7 +241,7 @@
 				</dict>
 			</dict>
 			<key>end</key>
-			<string>(\]\s*[:=])</string>
+			<string>([\]\}]\s*[:=])</string>
 			<key>endCaptures</key>
 			<dict>
 				<key>0</key>
