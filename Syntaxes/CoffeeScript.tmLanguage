@@ -197,13 +197,13 @@
 			<key>begin</key>
 			<string>/{3}</string>
 			<key>end</key>
-			<string>/{3}</string>
+			<string>/{3}[imgy]{0,4}</string>
 			<key>name</key>
 			<string>string.regexp.coffee</string>
 		</dict>
 		<dict>
 			<key>match</key>
-			<string>(?&lt;!\d)\s*/(?![\s/*+{}?]).*?[^\\]/[igmy]{0,4}</string>
+			<string>/(?![\s/*+{}?]).*?[^\\]/[igmy]{0,4}</string>
 			<key>name</key>
 			<string>string.regexp.coffee</string>
 		</dict>
