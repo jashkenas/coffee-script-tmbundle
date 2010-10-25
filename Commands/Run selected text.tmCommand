@@ -7,7 +7,7 @@
 	<key>command</key>
 	<string>#!/bin/bash
 
-coffee -s
+/usr/local/bin/coffee -s
 </string>
 	<key>input</key>
 	<string>selection</string>
