@@ -225,6 +225,12 @@
 			<string>keyword.control.coffee</string>
 		</dict>
 		<dict>
+			<key>match</key>
+			<string>and=|or=|!|%|&amp;|\^|\*|\/|\-\-|\-|\+\+|\+|~|===|==|=|!=|!==|&lt;=|&gt;=|&lt;&lt;=|&gt;&gt;=|&gt;&gt;&gt;=|&lt;&gt;|&lt;|&gt;|!|&amp;&amp;|\?|\||\|\||\:|\*=|(?&lt;!\()/=|%=|\+=|\-=|&amp;=|\^=|\b(instanceof|new|delete|typeof|and|or|is|isnt|not)\b</string>
+			<key>name</key>
+			<string>keyword.operator.coffee</string>
+		</dict>
+		<dict>
 			<key>captures</key>
 			<dict>
 				<key>1</key>
@@ -373,12 +379,6 @@
 			<string>\b(debugger|\\)\b</string>
 			<key>name</key>
 			<string>keyword.other.coffee</string>
-		</dict>
-		<dict>
-			<key>match</key>
-			<string>and=|or=|!|%|&amp;|\^|\*|\/|\-\-|\-|\+\+|\+|~|===|==|=|!=|!==|&lt;=|&gt;=|&lt;&lt;=|&gt;&gt;=|&gt;&gt;&gt;=|&lt;&gt;|&lt;|&gt;|!|&amp;&amp;|\?|\||\|\||\:|\*=|(?&lt;!\()/=|%=|\+=|\-=|&amp;=|\^=|\b(instanceof|new|delete|typeof|and|or|is|isnt|not)\b</string>
-			<key>name</key>
-			<string>keyword.operator.coffee</string>
 		</dict>
 		<dict>
 			<key>match</key>
