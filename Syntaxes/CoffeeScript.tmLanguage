@@ -30,23 +30,13 @@
 				<key>2</key>
 				<dict>
 					<key>name</key>
-					<string>variable.parameter.function.coffee</string>
-				</dict>
-				<key>3</key>
-				<dict>
-					<key>name</key>
-					<string>variable.parameter.function.coffee</string>
-				</dict>
-				<key>4</key>
-				<dict>
-					<key>name</key>
 					<string>storage.type.function.coffee</string>
 				</dict>
 			</dict>
 			<key>comment</key>
 			<string>match stuff like: a -&gt; … </string>
 			<key>match</key>
-			<string>(\()(.*?)(\))\s*((=|-)&gt;)</string>
+			<string>(\([^)]*?\))\s*([=-]&gt;)</string>
 			<key>name</key>
 			<string>meta.inline.function.coffee</string>
 		</dict>
