@@ -3,7 +3,7 @@
 <plist version="1.0">
 <dict>
 	<key>content</key>
-	<string>console.log($0)</string>
+	<string>console.log $0</string>
 	<key>name</key>
 	<string>log</string>
 	<key>scope</key>

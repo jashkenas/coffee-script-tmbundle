@@ -210,7 +210,7 @@
 		</dict>
 		<dict>
 			<key>match</key>
-			<string>\b(?&lt;!\.)(break|by|catch|continue|else|finally|for|in|of|if|return|switch|then|throw|try|unless|when|while|until|loop|(?&lt;=for)\s+all)(?!\s*:)\b</string>
+			<string>\b(?&lt;!\.)(break|by|catch|continue|else|finally|for|in|of|if|return|switch|then|throw|try|unless|when|while|until|loop|(?&lt;=for)\s+own)(?!\s*:)\b</string>
 			<key>name</key>
 			<string>keyword.control.coffee</string>
 		</dict>
