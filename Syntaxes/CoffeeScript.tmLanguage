@@ -10,9 +10,9 @@
 		<string>Cakefile</string>
 	</array>
 	<key>foldingStartMarker</key>
-	<string>^.*[:=] \{[^\}]*$</string>
+	<string>.*(-&gt;|=&gt;)\s*$|.*[\[{]\s*$</string>
 	<key>foldingStopMarker</key>
-	<string>\s*\}</string>
+	<string>^\s*$|^\s*[}\]]\s*$</string>
 	<key>keyEquivalent</key>
 	<string>^~C</string>
 	<key>name</key>
