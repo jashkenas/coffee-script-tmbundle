@@ -14,3 +14,5 @@ The bundle includes syntax highlighting, the ability to compile or evaluate Coff
 Patches for additions are always welcome.
 
 ![screenshot](http://jashkenas.s3.amazonaws.com/images/coffeescript/textmate-highlighting.png)
+
+If your TextMate.app is having trouble finding the `coffee` command, remember that [TextMate doesn't inherit your regular PATH](http://wiki.macromates.com/Troubleshooting/TextMateAndThePath). 
