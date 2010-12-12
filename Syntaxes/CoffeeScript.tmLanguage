@@ -36,7 +36,7 @@
 			<key>comment</key>
 			<string>match stuff like: a -&gt; … </string>
 			<key>match</key>
-			<string>(\([^)]*?\))\s*([=-]&gt;)</string>
+			<string>(\([^()]*?\))\s*([=-]&gt;)</string>
 			<key>name</key>
 			<string>meta.inline.function.coffee</string>
 		</dict>
