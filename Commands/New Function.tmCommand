@@ -6,7 +6,7 @@
 	<string>nop</string>
 	<key>command</key>
 	<string>cat &lt;&lt;SNIPPET
-${TM_SELECTED_TEXT:-$TM_CURRENT_WORD}: (\${1:args}) -&gt;
+${TM_SELECTED_TEXT:-$TM_CURRENT_WORD} = (\${1:args}) -&gt;
   \$0
 SNIPPET</string>
 	<key>fallbackInput</key>
