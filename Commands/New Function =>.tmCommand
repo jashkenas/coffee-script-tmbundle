@@ -7,7 +7,7 @@
 	<key>command</key>
 	<string>#!/usr/bin/env ruby
 
-token = "-&gt;"
+token = "=&gt;"
 line = ENV['TM_CURRENT_LINE']
 
 if line[-1..-1] == " "
@@ -22,14 +22,14 @@ end
 	<key>input</key>
 	<string>selection</string>
 	<key>keyEquivalent</key>
-	<string>$</string>
+	<string>~$</string>
 	<key>name</key>
-	<string>New Function</string>
+	<string>New Function =&gt;</string>
 	<key>output</key>
 	<string>insertAsSnippet</string>
 	<key>scope</key>
 	<string>source.coffee</string>
 	<key>uuid</key>
-	<string>192428A1-8684-4172-8728-225B4C9E532F</string>
+	<string>D94D14A8-7A96-41EC-BF67-03636A76C025</string>
 </dict>
 </plist>
