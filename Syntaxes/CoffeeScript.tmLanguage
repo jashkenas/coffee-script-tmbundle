@@ -351,16 +351,16 @@
 				<key>3</key>
 				<dict>
 					<key>name</key>
-					<string>entity.other.inherited-class.coffee</string>
+					<string>keyword.control.inheritance.coffee</string>
 				</dict>
 				<key>4</key>
 				<dict>
 					<key>name</key>
-					<string>keyword.control.inheritance.coffee</string>
+					<string>entity.other.inherited-class.coffee</string>
 				</dict>
 			</dict>
 			<key>match</key>
-			<string>(class\b)\s+([a-zA-Z\$_]\w+)?(\s+(extends)\s+[a-zA-Z\$_]\w*)?</string>
+			<string>(class\b)\s+([a-zA-Z\$_]\w+)?(?:\s+(extends)\s+([a-zA-Z\$_]\w*))?</string>
 			<key>name</key>
 			<string>meta.class.coffee</string>
 		</dict>
