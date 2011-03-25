@@ -4,12 +4,14 @@
 <dict>
 	<key>beforeRunningCommand</key>
 	<string>nop</string>
+	<key>bundleUUID</key>
+	<string>A46E4382-F1AC-405B-8F22-65FF470F34D7</string>
 	<key>command</key>
 	<string>#!/bin/bash
 
-echo "&lt;pre style='font-family:Monaco; font-size: 22px;'&gt;"
+echo "&lt;pre&gt;&lt;code&gt;"
 coffee -s
-echo "&lt;/pre&gt;"</string>
+echo "&lt;/code&gt;&lt;/pre&gt;"</string>
 	<key>input</key>
 	<string>selection</string>
 	<key>keyEquivalent</key>
