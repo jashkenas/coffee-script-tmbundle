@@ -9,9 +9,7 @@
 	<key>command</key>
 	<string>#!/bin/bash
 
-echo "&lt;pre&gt;&lt;code&gt;"
-coffee -s
-echo "&lt;/code&gt;&lt;/pre&gt;"</string>
+coffee -s | pre</string>
 	<key>input</key>
 	<string>selection</string>
 	<key>keyEquivalent</key>

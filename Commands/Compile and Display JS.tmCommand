@@ -9,9 +9,7 @@
 	<key>command</key>
 	<string>#!/bin/bash
 
-echo "&lt;pre&gt;&lt;code&gt;"
-coffee -scp --bare | sed 's/&lt;/\&amp;lt;/g' | sed 's/&gt;/\&amp;gt;/g'
-echo "&lt;/code&gt;&lt;/pre&gt;"</string>
+coffee -scp --bare | pre</string>
 	<key>fallbackInput</key>
 	<string>document</string>
 	<key>input</key>
