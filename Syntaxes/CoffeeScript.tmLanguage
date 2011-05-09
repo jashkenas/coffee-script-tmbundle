@@ -204,13 +204,13 @@
 		</dict>
 		<dict>
 			<key>match</key>
-			<string>/(?![\s/*+{}?]).*?[^\\]/[igmy]{0,4}(?![a-zA-Z0-9])</string>
+			<string>/(?![\s=/*+{}?]).*?[^\\]/[igmy]{0,4}(?![a-zA-Z0-9])</string>
 			<key>name</key>
 			<string>string.regexp.coffee</string>
 		</dict>
 		<dict>
 			<key>match</key>
-			<string>\b(?&lt;!\.)(break|by|catch|continue|else|finally|for|in|of|if|return|switch|then|throw|try|unless|when|while|until|loop|(?&lt;=for)\s+own)(?!\s*:)\b</string>
+			<string>\b(?&lt;!\.)(break|by|catch|continue|else|finally|for|in|of|if|return|switch|then|throw|try|unless|when|while|until|loop|do|(?&lt;=for)\s+own)(?!\s*:)\b</string>
 			<key>name</key>
 			<string>keyword.control.coffee</string>
 		</dict>
