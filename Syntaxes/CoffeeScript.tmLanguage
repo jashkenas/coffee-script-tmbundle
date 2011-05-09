@@ -168,6 +168,15 @@
 			<string>###[ \t]*\n</string>
 			<key>name</key>
 			<string>comment.block.coffee</string>
+			<key>patterns</key>
+			<array>
+				<dict>
+					<key>match</key>
+					<string>@\w*</string>
+					<key>name</key>
+					<string>storage.type.annotation.coffeescript</string>
+				</dict>
+			</array>
 		</dict>
 		<dict>
 			<key>captures</key>
