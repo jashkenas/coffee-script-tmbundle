@@ -179,7 +179,7 @@
 				</dict>
 			</dict>
 			<key>match</key>
-			<string>(#).*$\n?</string>
+			<string>(?:^[ \t]+)?(#).*$\n?</string>
 			<key>name</key>
 			<string>comment.line.coffee</string>
 		</dict>
