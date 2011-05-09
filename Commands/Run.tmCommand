@@ -7,9 +7,7 @@
 	<key>command</key>
 	<string>#!/bin/bash
 
-echo "&lt;pre style='font-family:Monaco; font-size: 22px;'&gt;"
-${TM_COFFEE:=coffee} -s
-echo "&lt;/pre&gt;"</string>
+${TM_COFFEE:=coffee} -s | pre</string>
 	<key>input</key>
 	<string>selection</string>
 	<key>keyEquivalent</key>
