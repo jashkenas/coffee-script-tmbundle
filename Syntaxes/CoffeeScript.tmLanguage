@@ -2,8 +2,6 @@
 <!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
 <plist version="1.0">
 <dict>
-	<key>bundleUUID</key>
-	<string>A46E4382-F1AC-405B-8F22-65FF470F34D7</string>
 	<key>comment</key>
 	<string>CoffeeScript Syntax: version 1</string>
 	<key>fileTypes</key>
