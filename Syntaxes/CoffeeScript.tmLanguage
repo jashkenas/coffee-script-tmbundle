@@ -503,7 +503,7 @@
 						</dict>
 					</dict>
 					<key>match</key>
-					<string>(#).*$\n?</string>
+					<string>(?&lt;!\\)(#).*$\n?</string>
 					<key>name</key>
 					<string>comment.line.coffee</string>
 				</dict>
