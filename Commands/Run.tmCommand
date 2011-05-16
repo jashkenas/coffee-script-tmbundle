@@ -6,8 +6,10 @@
 	<string>nop</string>
 	<key>command</key>
 	<string>#!/bin/bash
-
-${TM_COFFEE:=coffee} -s | pre</string>
+PATH=/usr/local/bin:/usr/bin:/bin:$PATH
+echo '<pre>'
+${TM_COFFEE:=coffee} -s
+echo '</pre>'</string>
 	<key>input</key>
 	<string>selection</string>
 	<key>keyEquivalent</key>
