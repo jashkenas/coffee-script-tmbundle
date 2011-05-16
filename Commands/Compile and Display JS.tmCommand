@@ -7,7 +7,11 @@
 	<key>command</key>
 	<string>#!/bin/bash
 
-${TM_COFFEE:=coffee} -scp --bare | pre</string>
+if type -P pygmentize &amp;&gt;/dev/null; then
+	${TM_COFFEE:=coffee} -scp --bare | pygmentize -l javascript -f html -O full,style=emacs #,linenos=1 # for line numbers
+else
+	${TM_COFFEE:=coffee} -scp --bare | pre
+fi</string>
 	<key>fallbackInput</key>
 	<string>document</string>
 	<key>input</key>
