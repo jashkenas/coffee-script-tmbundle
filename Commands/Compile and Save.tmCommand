@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE plist PUBLIC "-//Apple Computer//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+    <dict>
+        <key>name</key>
+        <string>Compile and Save</string>
+        <key>uuid</key>
+        <string>2000D73F-02FB-4EF9-895E-02AFD1FE78B9</string>
+        <key>input</key>
+        <string>none</string>
+        <key>output</key>
+        <string>showAsTooltip</string>
+        <key>command</key>
+        <string>#!/bin/bash
+PATH=/usr/local/bin:/usr/bin:/bin:$PATH
+newfile=`echo ${TM_FILEPATH} | sed "s/\.coffee$/.js/"` 
+${TM_COFFEE:=coffee} -cp --bare ${TM_FILEPATH} &gt; $newfile
+echo Coffe `${TM_COFFEE:=coffee} -v`
+echo Coffee: "${TM_FILEPATH}"
+echo Compiled to: $newfile</string>
+        <key>beforeRunningCommand</key>
+        <string>saveActiveFile</string>
+        <key>scope</key>
+        <string>source.coffee</string>
+        <key>keyEquivalent</key>
+        <string>@^$s</string>
+    </dict>
+</plist>
