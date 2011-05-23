@@ -155,7 +155,7 @@
 		</dict>
 		<dict>
 			<key>begin</key>
-			<string>###</string>
+			<string>(?&lt;!#)###(?!#)</string>
 			<key>captures</key>
 			<dict>
 				<key>0</key>
@@ -165,7 +165,7 @@
 				</dict>
 			</dict>
 			<key>end</key>
-			<string>###[ \t]*\n</string>
+			<string>###(?:[ \t]*\n)</string>
 			<key>name</key>
 			<string>comment.block.coffee</string>
 			<key>patterns</key>
@@ -188,7 +188,7 @@
 				</dict>
 			</dict>
 			<key>match</key>
-			<string>(#)(?!##).*$\n?</string>
+			<string>(#).*$\n?</string>
 			<key>name</key>
 			<string>comment.line.coffee</string>
 		</dict>
