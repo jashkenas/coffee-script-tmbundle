@@ -7,8 +7,8 @@
 	<key>command</key>
 	<string>#!/bin/bash
 
-if type -P pygmentize &amp;&gt;/dev/null; then
-	${TM_COFFEE:=coffee} -scp --bare | pygmentize -l javascript -f html -O full,style=emacs #,linenos=1 # for line numbers
+if type -P ${TM_PYGMENTIZE:=pygmentize} &amp;&gt;/dev/null; then
+	${TM_COFFEE:=coffee} -scp --bare | ${TM_PYGMENTIZE:=pygmentize} -l javascript -f html -O full,style=emacs #,linenos=1 # for line numbers
 else
 	${TM_COFFEE:=coffee} -scp --bare | pre
 fi</string>
