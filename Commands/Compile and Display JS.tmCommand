@@ -7,7 +7,16 @@
 	<key>command</key>
 	<string>#!/bin/bash
 
-${TM_COFFEE:=coffee} -scp --bare | pre</string>
+function highlight {
+  test `which pygmentize`
+  if [[ $? -eq 0 ]]; then
+    pygmentize -Onoclasses,nobackground=True -l js -f html
+  else
+    pre
+  fi
+}
+
+${TM_COFFEE:=coffee} -scp --bare | highlight</string>
 	<key>fallbackInput</key>
 	<string>document</string>
 	<key>input</key>
