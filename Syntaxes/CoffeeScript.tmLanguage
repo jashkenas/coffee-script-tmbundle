@@ -9,6 +9,8 @@
 		<string>coffee</string>
 		<string>Cakefile</string>
 	</array>
+	<key>firstLineMatch</key>
+	<string>^#!.*\bcoffee</string>
 	<key>foldingStartMarker</key>
 	<string>.*(-&gt;|=&gt;)\s*$|.*[\[{]\s*$</string>
 	<key>foldingStopMarker</key>
