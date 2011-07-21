@@ -8,6 +8,7 @@
 	<array>
 		<string>coffee</string>
 		<string>Cakefile</string>
+		<string>coffee.erb</string>
 	</array>
 	<key>firstLineMatch</key>
 	<string>^#!.*\bcoffee</string>
