@@ -3,7 +3,7 @@
 <plist version="1.0">
 <dict>
 	<key>content</key>
-	<string>${1:(${2:args}) }=&gt;
+	<string>${1:name}: (${2:args}) =&gt;
   ${0:# body...}</string>
 	<key>name</key>
 	<string>Function (bound)</string>
