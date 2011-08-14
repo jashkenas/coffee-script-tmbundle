@@ -20,18 +20,17 @@ If your TextMate.app is having trouble finding the `coffee` command, remember th
 Using with Sublime Text 2
 -------------------------
 
-To use with Sublime Text 2 on OSX: 
+Installation for with Sublime Text 2 on OSX: 
 
-    git clone https://github.com/jashkenas/coffee-script-tmbundle.git
     cd ~/Library/Application\ Support/Sublime\ Text\ 2/Packages
-    ln -s ~/coffee-script-tmbundle CoffeeScript
+    git clone https://github.com/jashkenas/coffee-script-tmbundle.git CoffeeScript
 
-To use with Sublime Text 2 on Linux (tested in Ubuntu 11.04, assumes ST2 is in ~/Applications):
+Installation for Sublime Text 2 on Linux (tested in Ubuntu 11.04):
 
     git clone https://github.com/jashkenas/coffee-script-tmbundle.git
     cd coffee-script-tmbundle
     zip -r CoffeeScript.sublime-package *
     mv CoffeeScript.sublime-package ~/Applications/Sublime\ Text\ 2/Pristine\ Packages
 
-Quit ST2 and restart. You will have to close any `*.coffee` files that you have previously opened. Once you reopen them, syntax highlighting should work. Code snippets should also work. Haven't tested other features.
+Quit and restart Sublime Text 2.
 
