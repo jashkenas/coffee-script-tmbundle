@@ -10,7 +10,7 @@
 function highlight {
   test `which pygmentize`
   if [[ $? -eq 0 ]]; then
-    pygmentize -Onoclasses,nobackground=True,linenos=1 -l js -f html
+    pygmentize -Onoclasses,nobackground=True,style=autumn -l js -f html
   else
     pre
   fi
