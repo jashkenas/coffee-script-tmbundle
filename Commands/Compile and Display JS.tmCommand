@@ -7,6 +7,13 @@
 	<key>command</key>
 	<string>#!/bin/bash
 
+. "$TM_SUPPORT_PATH/lib/webpreview.sh"
+html_header "CoffeeScript Compile and Display JS" "${TM_FILENAME:-}"
+
+if [[ -f "$TM_FILEPATH" ]]; then
+  echo "<base href='tm-file://${TM_FILEPATH// /%20}'>"
+fi
+
 function highlight {
   test `which pygmentize`
   if [[ $? -eq 0 ]]; then
