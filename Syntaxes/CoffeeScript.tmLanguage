@@ -193,7 +193,7 @@
 			<key>match</key>
 			<string>(#).*$\n?</string>
 			<key>name</key>
-			<string>comment.line.coffee</string>
+			<string>comment.line.number-sign.coffee</string>
 		</dict>
 		<dict>
 			<key>begin</key>
@@ -517,7 +517,7 @@
 					<key>match</key>
 					<string>(?&lt;!\\)(#).*$\n?</string>
 					<key>name</key>
-					<string>comment.line.coffee</string>
+					<string>comment.line.number-sign.coffee</string>
 				</dict>
 			</array>
 		</dict>
