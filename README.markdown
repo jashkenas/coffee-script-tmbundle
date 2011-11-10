@@ -8,6 +8,7 @@ Installation:
     mkdir -p ~/Library/Application\ Support/TextMate/Bundles
     cd ~/Library/Application\ Support/TextMate/Bundles
     git clone git://github.com/jashkenas/coffee-script-tmbundle CoffeeScript.tmbundle
+    osascript -e 'tell app "TextMate" to reload bundles'
 
 The bundle includes syntax highlighting, the ability to compile or evaluate CoffeeScript inline, convenient symbol listing for functions, and a number of expando snippets.
 
