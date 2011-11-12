@@ -13,9 +13,29 @@
 	<key>firstLineMatch</key>
 	<string>^#!.*\bcoffee</string>
 	<key>foldingStartMarker</key>
-	<string>^\s*class\s+\S.*$|.*(-&gt;|=&gt;)\s*$|.*[\[{]\s*$</string>
+	<string>(?x)
+													^\s*class\s+\S.*$ 	# Class def
+												| (?:-&gt;|=&gt;)\s*$				# Function def
+												| ^\s* 								# Object member
+														(?:(['"]).*\1|[^'"]*) # (Un)quoted attribute name 
+														: 											# Colon
+														\s*(?:$|\s\#) # End of line or trailing comment
+												| ^[^\#]*\#\#\#[^\#]*$ 						# Multiline comment
+												| ^[^\/]*\/\/\/[^\/]*(?:$|\s+\#)	# Heregex
+												| ^[^"]*"""[^"]*$									# Double quoted heredoc
+												| ^[^']*[']{3}[^']*$						# Single quoted heredoc
+												| [\[\{\(]\s*$										# Opening sq bracket, brace, paren
+												| \s*switch												# switch statement
+	</string>
 	<key>foldingStopMarker</key>
-	<string>^\s*$|^\s*[}\]]\s*$</string>
+	<string>(?x)
+												^\s*$
+											| ^\s*[\}\]\)] 	
+											| ^\s*[\/\#\"']{3}$ 			
+							# This last line prevents closing tags from opening
+							# another folding block. Use properly indented      
+							# whitespace to end fold blocks
+	</string>
 	<key>keyEquivalent</key>
 	<string>^~C</string>
 	<key>name</key>
@@ -211,6 +231,10 @@
 				<dict>
 					<key>include</key>
 					<string>#embedded_comment</string>
+				</dict>
+				<dict>
+					<key>include</key>
+					<string>source.regexp.oniguruma</string>
 				</dict>
 			</array>
 		</dict>
