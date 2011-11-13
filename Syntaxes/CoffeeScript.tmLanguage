@@ -26,6 +26,10 @@
 												| ^[^']*[']{3}[^']*$						# Single quoted heredoc
 												| [\[\{\(]\s*$										# Opening sq bracket, brace, paren
 												| \s*switch												# switch statement
+												| ^\s*(else)?\s*(?:if|unless)(?!.*then) # if statement
+								        | else\s*$                          # else block
+								        | ^\s*(?:try|catch.*)\s*    # try/catch block
+								        | ^(\s*|.*[=:]\s*)(?:for|while|until|loop) # loops
 	</string>
 	<key>foldingStopMarker</key>
 	<string>(?x)
