@@ -20,15 +20,9 @@
 														(?:(['"]).*\1|[^'"]*) # (Un)quoted attribute name 
 														: 											# Colon
 														\s*(?:$|\s\#) # End of line or trailing comment
-<<<<<<< HEAD
 												| ^[^\#]*\#{3}[^\#]*$ 						# Multiline comment
 												| ^[^\/]*\/{3}[^\/]*(?:$|\s+\#)	# Heregex
 												| ^[^"]*"{3}[^"]*$									# Double quoted heredoc
-=======
-												| ^[^\#]*\#\#\#[^\#]*$ 						# Multiline comment
-												| ^[^\/]*\/\/\/[^\/]*(?:$|\s+\#)	# Heregex
-												| ^[^"]*"""[^"]*$									# Double quoted heredoc
->>>>>>> origin/folding-blocks
 												| ^[^']*[']{3}[^']*$						# Single quoted heredoc
 												| [\[\{\(]\s*$										# Opening sq bracket, brace, paren
 												| \s*switch												# switch statement
@@ -250,11 +244,7 @@
 		</dict>
 		<dict>
 			<key>begin</key>
-<<<<<<< HEAD
-			<string>[^\\']/(?![\s=/*+{}?])</string>
-=======
-			<string>/(?![\s=/*+{}?])</string>
->>>>>>> origin/folding-blocks
+			<string>/[^'"\\](?![\s=/*+{}?])</string>
 			<key>comment</key>
 			<string>match = '/(?![\s=/*+{}?]).*?[^\]/[igmy]{0,4}(?![a-zA-Z0-9])';</string>
 			<key>end</key>
@@ -684,7 +674,7 @@
 					<array>
 						<dict>
 							<key>include</key>
-							<string>$self</string>
+							<string>#regex</string>
 						</dict>
 					</array>
 				</dict>
@@ -720,11 +710,7 @@
 				</dict>
 				<dict>
 					<key>match</key>
-<<<<<<< HEAD
-					<string>\\[1-9]{,2}</string>
-=======
 					<string>\\[1-9]\d*</string>
->>>>>>> origin/folding-blocks
 					<key>name</key>
 					<string>keyword.other.back-reference.regexp</string>
 				</dict>
@@ -839,11 +825,7 @@
 					<array>
 						<dict>
 							<key>include</key>
-<<<<<<< HEAD
 							<string>#regex</string>
-=======
-							<string>$self</string>
->>>>>>> origin/folding-blocks
 						</dict>
 					</array>
 				</dict>
@@ -894,11 +876,7 @@
 					<array>
 						<dict>
 							<key>include</key>
-<<<<<<< HEAD
 							<string>#regex</string>
-=======
-							<string>$self</string>
->>>>>>> origin/folding-blocks
 						</dict>
 					</array>
 				</dict>
