@@ -244,7 +244,7 @@
 		</dict>
 		<dict>
 			<key>begin</key>
-			<string>[^'"\\]/(?![\s=/*+{}?])</string>
+			<string>[^'"\\\d]/(?![\s=/*+{}?])</string>
 			<key>comment</key>
 			<string>match = '/(?![\s=/*+{}?]).*?[^\]/[igmy]{0,4}(?![a-zA-Z0-9])';</string>
 			<key>end</key>
