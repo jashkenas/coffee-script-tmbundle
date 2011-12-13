@@ -1,13 +1,14 @@
 CoffeeScript.tmbundle
 ---------------------
 
-A **TextMate Bundle** for the **CoffeeScript** programming language.
+*This Bundle has been updated to work with TextMate 2*
+
+A **TextMate 2 Bundle** for the **CoffeeScript** programming language.
 
 Installation:
 
-    mkdir -p ~/Library/Application\ Support/TextMate/Bundles
-    cd ~/Library/Application\ Support/TextMate/Bundles
-    git clone git://github.com/jashkenas/coffee-script-tmbundle CoffeeScript.tmbundle
+    cd /Applications/TextMate.app/Contents/SharedSupport/Bundles
+    git clone git://github.com/markbates/coffee-script-tmbundle CoffeeScriptTM2.tmbundle
 
 The bundle includes syntax highlighting, the ability to compile or evaluate CoffeeScript inline, convenient symbol listing for functions, and a number of expando snippets.
 
