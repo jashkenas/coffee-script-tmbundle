@@ -21,7 +21,7 @@ If your TextMate.app is having trouble finding the `coffee` command, remember th
 Using with Sublime Text 2
 -------------------------
 
-Installation for with Sublime Text 2 on OSX: 
+Installation for Sublime Text 2 on OSX: 
 
     cd ~/Library/Application\ Support/Sublime\ Text\ 2/Packages
     git clone https://github.com/jashkenas/coffee-script-tmbundle.git CoffeeScript
@@ -35,3 +35,16 @@ Installation for Sublime Text 2 on Linux (tested in Ubuntu 11.04):
 
 Quit and restart Sublime Text 2.
 
+Using with Redcar
+-------------------------
+
+Installation for Redcar: 
+
+    cd ~/.redcar/Bundles
+
+or if it doesn't yet exist
+    
+    mkdir ~/.redcar/Bundles
+    git clone git://github.com/jashkenas/coffee-script-tmbundle CoffeeScript.tmbundle
+    
+Quit and restart Redcar
