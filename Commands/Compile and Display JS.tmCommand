@@ -8,7 +8,7 @@
 	<string>#!/bin/bash
 
 function highlight {
-  test `which pygmentize`
+  test `which pygmentizee`
   if [[ $? -eq 0 ]]; then
     pygmentize -Onoclasses,nobackground=True,style=autumn -l js -f html
   else
