@@ -18,4 +18,13 @@ Patches for additions are always welcome.
 
 If your TextMate.app is having trouble finding the `coffee` command, remember that [TextMate doesn't inherit your regular PATH](http://wiki.macromates.com/Troubleshooting/TextMateAndThePath). 
 
+Sublime Text 2:
+-------------
+
+This bundle is compatible with Sublime Text 2, and can be installed for
+that editor using:
+
+  cd ~/Library/Application\ Support/Sublime\ Text\ 2/Packages/
+  git clone git://github.com/jashkenas/coffee-script-tmbundle CoffeeScript
+
 
