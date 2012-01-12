@@ -24,7 +24,7 @@ Sublime Text 2:
 This bundle is compatible with Sublime Text 2, and can be installed for
 that editor using:
 
-  cd ~/Library/Application\ Support/Sublime\ Text\ 2/Packages/
-  git clone git://github.com/jashkenas/coffee-script-tmbundle CoffeeScript
+    cd ~/Library/Application\ Support/Sublime\ Text\ 2/Packages/
+    git clone git://github.com/jashkenas/coffee-script-tmbundle CoffeeScript
 
 
