@@ -3,9 +3,11 @@
 <plist version="1.0">
 <dict>
   <key>content</key>
-  <string># </string>
+  <string># $1
+# -------------------------
+$0</string>
   <key>name</key>
-  <string>Comment</string>
+  <string>Subheader</string>
   <key>scope</key>
   <string>source.coffee</string>
   <key>tabTrigger</key>
