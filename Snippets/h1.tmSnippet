@@ -11,6 +11,6 @@ $0</string>
   <key>scope</key>
   <string>source.coffee</string>
   <key>tabTrigger</key>
-  <string>//</string>
+  <string>/1</string>
 </dict>
 </plist>
