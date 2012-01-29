@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>beforeRunningCommand</key>
+	<string>nop</string>
+	<key>command</key>
+	<string>#!/usr/bin/env ruby
+
+c = `#{ENV['TM_COFFEE'] || 'coffee'} -s -p 2&gt;&amp;1`.split('\n')
+
+if c.size &gt; 40
+  puts c[1..40]
+  puts 'Truncated'
+else
+  puts c
+  puts 'Done'
+end</string>
+	<key>input</key>
+	<string>selection</string>
+	<key>keyEquivalent</key>
+	<string>^@j</string>
+	<key>name</key>
+	<string>Show Javascript as Tooltip</string>
+	<key>output</key>
+	<string>showAsTooltip</string>
+	<key>scope</key>
+	<string>source.coffee</string>
+	<key>uuid</key>
+	<string>184FFCD2-02C9-4E1B-82C5-D8633288A402</string>
+</dict>
+</plist>

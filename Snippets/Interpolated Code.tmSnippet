@@ -9,7 +9,7 @@
 	<key>name</key>
 	<string>Interpolated Code</string>
 	<key>scope</key>
-	<string>(string.quoted.double.coffee) - string source, (string.quoted.double.heredoc.coffee) - string source</string>
+	<string>(string.quoted.double.coffee) - string source, (string.quoted.double.heredoc.coffee) - string source, (string.regexp.multiline.coffee) - string source</string>
 	<key>tabTrigger</key>
 	<string>#</string>
 	<key>uuid</key>

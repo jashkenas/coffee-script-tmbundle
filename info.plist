@@ -77,6 +77,8 @@
 	<string>CoffeeScript</string>
 	<key>ordering</key>
 	<array>
+		<string>E54F2234-A794-43FD-8587-925A4A9F89D8</string>
+		<string>184FFCD2-02C9-4E1B-82C5-D8633288A402</string>
 		<string>5B520980-A7D5-4E10-8582-1A4C889A8DE5</string>
 		<string>0A92C6F6-4D73-4859-B38C-4CC19CBC191F</string>
 		<string>419D24D8-0DD6-4D9A-8CA0-6D9CD740BEEC</string>
@@ -107,6 +109,7 @@
 		<string>8A65E175-18F2-428F-A695-73E01139E41A</string>
 		<string>C04ED189-6ACB-44E6-AD5B-911B760AD1CC</string>
 		<string>FBC44B18-323A-4C00-A35B-15E41830C5AD</string>
+		<string>68A86250-0280-11E0-A976-0800200C9A66</string>
 	</array>
 	<key>uuid</key>
 	<string>A46E4382-F1AC-405B-8F22-65FF470F34D7</string>

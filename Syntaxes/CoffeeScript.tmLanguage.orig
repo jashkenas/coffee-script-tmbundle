@@ -244,7 +244,7 @@
 		</dict>
 		<dict>
 			<key>begin</key>
-			<string>[^'"\\\d]/(?![\s=/*+{}?])</string>
+			<string>/[^'"\\](?![\s=/*+{}?])</string>
 			<key>comment</key>
 			<string>match = '/(?![\s=/*+{}?]).*?[^\]/[igmy]{0,4}(?![a-zA-Z0-9])';</string>
 			<key>end</key>
@@ -686,7 +686,7 @@
 			<array>
 				<dict>
 					<key>match</key>
-					<string>(?&lt;!\$)\b((0([box])[0-9a-fA-F]+)|([0-9]+(\.[0-9]+)?(e[+\-]?[0-9]+)?))\b</string>
+					<string>(?&lt;!\$)\b((0(x|X)[0-9a-fA-F]+)|([0-9]+(\.[0-9]+)?(e[+\-]?[0-9]+)?))\b</string>
 					<key>name</key>
 					<string>constant.numeric.coffee</string>
 				</dict>
