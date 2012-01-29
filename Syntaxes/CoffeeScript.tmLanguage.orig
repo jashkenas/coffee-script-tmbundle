@@ -21,14 +21,14 @@
 														: 											# Colon
 														\s*(?:$|\s\#) # End of line or trailing comment
 <<<<<<< HEAD
-												| ^[^\#]*\#\#\#[^\#]*$ 						# Multiline comment
-												| ^[^\/]*\/\/\/[^\/]*(?:$|\s+\#)	# Heregex
-												| ^[^"]*"""[^"]*$									# Double quoted heredoc
-=======
 												| ^[^\#]*\#{3}[^\#]*$ 						# Multiline comment
 												| ^[^\/]*\/{3}[^\/]*(?:$|\s+\#)	# Heregex
 												| ^[^"]*"{3}[^"]*$									# Double quoted heredoc
->>>>>>> Fixed incorrect (single line) regex scoping
+=======
+												| ^[^\#]*\#\#\#[^\#]*$ 						# Multiline comment
+												| ^[^\/]*\/\/\/[^\/]*(?:$|\s+\#)	# Heregex
+												| ^[^"]*"""[^"]*$									# Double quoted heredoc
+>>>>>>> origin/folding-blocks
 												| ^[^']*[']{3}[^']*$						# Single quoted heredoc
 												| [\[\{\(]\s*$										# Opening sq bracket, brace, paren
 												| \s*switch												# switch statement
@@ -251,10 +251,10 @@
 		<dict>
 			<key>begin</key>
 <<<<<<< HEAD
-			<string>/(?![\s=/*+{}?])</string>
-=======
 			<string>[^\\']/(?![\s=/*+{}?])</string>
->>>>>>> Fixed incorrect (single line) regex scoping
+=======
+			<string>/(?![\s=/*+{}?])</string>
+>>>>>>> origin/folding-blocks
 			<key>comment</key>
 			<string>match = '/(?![\s=/*+{}?]).*?[^\]/[igmy]{0,4}(?![a-zA-Z0-9])';</string>
 			<key>end</key>
@@ -696,7 +696,7 @@
 			<array>
 				<dict>
 					<key>match</key>
-					<string>(?&lt;!\$)\b((0([box])[0-9a-fA-F]+)|([0-9]+(\.[0-9]+)?(e[+\-]?[0-9]+)?))\b</string>
+					<string>(?&lt;!\$)\b((0(x|X)[0-9a-fA-F]+)|([0-9]+(\.[0-9]+)?(e[+\-]?[0-9]+)?))\b</string>
 					<key>name</key>
 					<string>constant.numeric.coffee</string>
 				</dict>
@@ -721,10 +721,10 @@
 				<dict>
 					<key>match</key>
 <<<<<<< HEAD
-					<string>\\[1-9]\d*</string>
-=======
 					<string>\\[1-9]{,2}</string>
->>>>>>> Fixed incorrect (single line) regex scoping
+=======
+					<string>\\[1-9]\d*</string>
+>>>>>>> origin/folding-blocks
 					<key>name</key>
 					<string>keyword.other.back-reference.regexp</string>
 				</dict>
@@ -840,10 +840,10 @@
 						<dict>
 							<key>include</key>
 <<<<<<< HEAD
-							<string>$self</string>
-=======
 							<string>#regex</string>
->>>>>>> Fixed incorrect (single line) regex scoping
+=======
+							<string>$self</string>
+>>>>>>> origin/folding-blocks
 						</dict>
 					</array>
 				</dict>
@@ -895,10 +895,10 @@
 						<dict>
 							<key>include</key>
 <<<<<<< HEAD
-							<string>$self</string>
-=======
 							<string>#regex</string>
->>>>>>> Fixed incorrect (single line) regex scoping
+=======
+							<string>$self</string>
+>>>>>>> origin/folding-blocks
 						</dict>
 					</array>
 				</dict>
