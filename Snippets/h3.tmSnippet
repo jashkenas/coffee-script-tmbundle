@@ -4,13 +4,13 @@
 <dict>
   <key>content</key>
   <string># $1
-# ------------------------------------------------------------------------------
+# -------------------------
 $0</string>
   <key>name</key>
   <string>Subheader</string>
   <key>scope</key>
   <string>source.coffee</string>
   <key>tabTrigger</key>
-  <string>/2</string>
+  <string>/3</string>
 </dict>
 </plist>
