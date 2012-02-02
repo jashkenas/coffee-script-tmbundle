@@ -14,7 +14,7 @@ function pre {
 }
 
 
-${TM_COFFEE:=coffee} -s | pre
+${TM_ICED:=iced} -s | pre
 </string>
 	<key>input</key>
 	<string>selection</string>
