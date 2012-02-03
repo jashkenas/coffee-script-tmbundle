@@ -3,7 +3,7 @@
 <plist version="1.0">
 <dict>
 	<key>comment</key>
-	<string>CoffeeScript Syntax: version 1</string>
+	<string>IcedCoffeeScript Syntax: version 1</string>
 	<key>fileTypes</key>
 	<array>
 		<string>coffee</string>
@@ -19,7 +19,7 @@
 	<key>keyEquivalent</key>
 	<string>^~C</string>
 	<key>name</key>
-	<string>CoffeeScript</string>
+	<string>Iced Coffee</string>
 	<key>patterns</key>
 	<array>
 		<dict>
@@ -222,7 +222,7 @@
 		</dict>
 		<dict>
 			<key>match</key>
-			<string>\b(?&lt;![\.\$])(break|by|catch|continue|else|finally|for|in|of|if|return|switch|then|throw|try|unless|when|while|until|loop|do|(?&lt;=for)\s+own)(?!\s*:)\b</string>
+			<string>\b(?&lt;![\.\$])(break|by|catch|continue|else|finally|for|in|of|if|return|switch|then|throw|try|unless|when|while|until|loop|do|await|defer|(?&lt;=for)\s+own)(?!\s*:)\b</string>
 			<key>name</key>
 			<string>keyword.control.coffee</string>
 		</dict>

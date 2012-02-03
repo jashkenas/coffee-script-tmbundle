@@ -13,7 +13,7 @@ function pre {
 	echo '&lt;/pre&gt;'
 }
 
-${TM_COFFEE:=coffee} -scp --bare | pre
+${TM_ICED:=iced} -scp --bare | pre
 </string>
 	<key>fallbackInput</key>
 	<string>document</string>

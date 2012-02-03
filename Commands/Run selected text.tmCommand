@@ -7,7 +7,7 @@
 	<key>command</key>
 	<string>#!/bin/bash
 
-${TM_COFFEE:=coffee} -s
+${TM_ICED:=iced} -s
 </string>
 	<key>input</key>
 	<string>selection</string>
