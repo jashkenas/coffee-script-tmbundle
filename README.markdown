@@ -19,7 +19,7 @@ Sublime should automatically detect and reload the package.
 
     cd ~/Library/Application\ Support/TextMate/Bundles (Textmate 1)
     cd /Applications/TextMate.app/Contents/SharedSupport/Bundles (Textmate 2)
-    git clone git://github.com/jashkenas/coffee-script-tmbundle CoffeeScriptBundle.tmbundle
+    git clone git://github.com/dhoelzgen/iced-coffee-script-tmbundle.git IcedCoffeeScriptBundle.tmbundle
 
 The bundle includes syntax highlighting, the ability to compile or evaluate CoffeeScript inline, convenient symbol listing for functions, and a number of expando snippets.
 
