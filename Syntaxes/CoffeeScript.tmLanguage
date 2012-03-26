@@ -222,13 +222,22 @@
 		</dict>
 		<dict>
 			<key>match</key>
-			<string>\b(?&lt;![\.\$])(break|by|catch|continue|else|finally|for|in|of|if|return|switch|then|throw|try|unless|when|while|until|loop|do|(?&lt;=for)\s+own)(?!\s*:)\b</string>
+			<string>(?x)
+				\b(?&lt;![\.\$])(
+					break|by|catch|continue|else|finally|for|in|of|if|return|switch|
+					then|throw|try|unless|when|while|until|loop|do|(?&lt;=for)\s+own
+				)(?!\s*:)\b
+			</string>
 			<key>name</key>
 			<string>keyword.control.coffee</string>
 		</dict>
 		<dict>
 			<key>match</key>
-			<string>and=|or=|!|%|&amp;|\^|\*|\/|\-\-|\-|\+\+|\+|~|===|==|=|!=|!==|&lt;=|&gt;=|&lt;&lt;=|&gt;&gt;=|&gt;&gt;&gt;=|&lt;&gt;|&lt;|&gt;|!|&amp;&amp;|\?|\||\|\||\:|\*=|(?&lt;!\()/=|%=|\+=|\-=|&amp;=|\^=|\b(?&lt;![\.\$])(instanceof|new|delete|typeof|and|or|is|isnt|not)\b</string>
+			<string>(?x)
+				and=|or=|!|%|&amp;|\^|\*|\/|(\-)?\-(?!&gt;)|\+\+|\+|~|==|=(?!&gt;)|!=|&lt;=|&gt;=|&lt;&lt;=|&gt;&gt;=|
+				&gt;&gt;&gt;=|&lt;&gt;|&lt;|&gt;|!|&amp;&amp;|\.\.(\.)?|\?|\||\|\||\:|\*=|(?&lt;!\()/=|%=|\+=|\-=|&amp;=|
+				\^=|\b(?&lt;![\.\$])(instanceof|new|delete|typeof|and|or|is|isnt|not)\b
+			</string>
 			<key>name</key>
 			<string>keyword.operator.coffee</string>
 		</dict>
@@ -328,13 +337,20 @@
 				</dict>
 			</dict>
 			<key>match</key>
-			<string>(\s*)(?=[a-zA-Z\$_])([a-zA-Z\$_](\w|\$|:|\.)*\s*(?=[:=](\s*\(.*\))?\s*((=|-)&gt;)))</string>
+			<string>(?x)
+				(\s*)
+				(?=[a-zA-Z\$_])
+				(
+					[a-zA-Z\$_](\w|\$|:|\.)*\s*
+					(?=[:=](\s*\(.*\))?\s*([=-]&gt;))
+				)
+			</string>
 			<key>name</key>
 			<string>meta.function.coffee</string>
 		</dict>
 		<dict>
 			<key>match</key>
-			<string>(=|-)&gt;</string>
+			<string>[=-]&gt;</string>
 			<key>name</key>
 			<string>storage.type.function.coffee</string>
 		</dict>
@@ -396,6 +412,84 @@
 			<string>\b(debugger|\\)\b</string>
 			<key>name</key>
 			<string>keyword.other.coffee</string>
+		</dict>
+		<dict>
+			<key>match</key>
+			<string>(?x)\b(
+				Array|ArrayBuffer|Blob|Boolean|Date|document|event|Function|
+				Int(8|16|32|64)Array|Math|Map|Number|
+				Object|Proxy|RegExp|Set|String|WeakMap|
+				window|Uint(8|16|32|64)Array|XMLHttpRequest
+			)\b</string>
+			<key>name</key>
+			<string>support.class.coffee</string>
+		</dict>
+		<dict>
+			<key>match</key>
+			<string>\b(console)\b</string>
+			<key>name</key>
+			<string>entity.name.type.object.coffee</string>
+		</dict>
+		<dict>
+			<key>match</key>
+			<string>((?&lt;=console\.)(debug|warn|info|log|error|time|timeEnd|assert))\b</string>
+			<key>name</key>
+			<string>support.function.console.coffee</string>
+		</dict>
+		<dict>
+			<key>match</key>
+			<string>(?x)\b(
+				decodeURI(Component)?|encodeURI(Component)?|eval|parse(Float|Int)|require
+			)\b</string>
+			<key>name</key>
+			<string>support.function.coffee</string>
+		</dict>
+		<dict>
+			<key>match</key>
+			<string>(?x)((?&lt;=\.)(
+				apply|call|concat|every|filter|forEach|from|hasOwnProperty|indexOf|
+				isPrototypeOf|join|lastIndexOf|map|of|pop|propertyIsEnumerable|push|
+				reduce(Right)?|reverse|shift|slice|some|sort|splice|to(Locale)?String|
+				unshift|valueOf
+			))\b</string>
+			<key>name</key>
+			<string>support.function.method.array.coffee</string>
+		</dict>
+		<dict>
+			<key>match</key>
+			<string>(?x)((?&lt;=Array\.)(
+				isArray
+			))\b</string>
+			<key>name</key>
+			<string>support.function.static.array.coffee</string>
+		</dict>
+		<dict>
+			<key>match</key>
+			<string>(?x)((?&lt;=Object\.)(
+				create|definePropert(ies|y)|freeze|getOwnProperty(Descriptors?|Names)|
+				getProperty(Descriptor|Names)|getPrototypeOf|is(Extensible|Frozen|Sealed)?|
+				isnt|keys|preventExtensions|seal
+			))\b</string>
+			<key>name</key>
+			<string>support.function.static.object.coffee</string>
+		</dict>
+		<dict>
+			<key>match</key>
+			<string>(?x)((?&lt;=Math\.)(
+				abs|acos|acosh|asin|asinh|atan|atan2|atanh|ceil|cos|cosh|exp|expm1|floor|
+				hypot|log|log10|log1p|log2|max|min|pow|random|round|sign|sin|sinh|sqrt|
+				tan|tanh|trunc
+			))\b</string>
+			<key>name</key>
+			<string>support.function.static.math.coffee</string>
+		</dict>
+		<dict>
+			<key>match</key>
+			<string>(?x)((?&lt;=Number\.)(
+				is(Finite|Integer|NaN)|toInteger
+			))\b</string>
+			<key>name</key>
+			<string>support.function.static.number.coffee</string>
 		</dict>
 		<dict>
 			<key>match</key>
