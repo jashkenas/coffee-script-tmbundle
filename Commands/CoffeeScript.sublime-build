@@ -3,4 +3,17 @@
 	"cmd": ["coffee","-c","$file"],
 	"file_regex": "^(...*?):([0-9]*):?([0-9]*)",
 	"selector": "source.coffee"
+
+/*
+     Windows users: use these settings.
+
+     The path will work OK with the default node.js + 
+     npm coffee-script installation. Alternatively,
+     adjust the path to the CoffeeScript executable.
+
+	"cmd": ["coffee.cmd", "-c", "$file"],
+	"file_regex": "^(...*?):([0-9]*):?([0-9]*)",
+	"selector": "source.coffee"
+
+*/
 }
