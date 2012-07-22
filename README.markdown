@@ -2,13 +2,21 @@ CoffeeScript.tmbundle
 ---------------------
 
 A **TextMate Bundle** for the **CoffeeScript** programming language.
-    
+
 Installation:
 -------------
 
-    cd ~/Library/Application\ Support/TextMate/Bundles (Textmate 1)
-    cd /Applications/TextMate.app/Contents/SharedSupport/Bundles (Textmate 1.5.10 & 2)
+### TextMate 1
+
+    cd ~/Library/Application\ Support/TextMate/Bundles
     git clone git://github.com/jashkenas/coffee-script-tmbundle CoffeeScriptBundle.tmbundle
+    osascript -e 'tell app "TextMate" to reload bundles'
+
+### TextMate 1.5.10+ & 2
+
+    cd /Applications/TextMate.app/Contents/SharedSupport/Bundles
+    git clone git://github.com/jashkenas/coffee-script-tmbundle CoffeeScriptBundle.tmbundle
+    osascript -e 'tell app "TextMate" to reload bundles'
 
 The bundle includes syntax highlighting, the ability to compile or evaluate CoffeeScript inline, convenient symbol listing for functions, and a number of expando snippets.
 
