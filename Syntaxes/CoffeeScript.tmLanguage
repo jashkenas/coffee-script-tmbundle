@@ -416,7 +416,7 @@
 		<dict>
 			<key>match</key>
 			<string>(?x)\b(
-				Array|ArrayBuffer|Blob|Boolean|Date|document|event|Function|
+				Array|ArrayBuffer|Blob|Boolean|Date|document|Function|
 				Int(8|16|32|64)Array|Math|Map|Number|
 				Object|Proxy|RegExp|Set|String|WeakMap|
 				window|Uint(8|16|32|64)Array|XMLHttpRequest
