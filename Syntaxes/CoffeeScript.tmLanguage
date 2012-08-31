@@ -374,7 +374,7 @@
 		</dict>
 		<dict>
 			<key>match</key>
-			<string>\b(?&lt;!\.)(super|this|extends)(?!\s*[:=])\b</string>
+			<string>\b(?&lt;!\.)(this|extends)(?!\s*[:=])\b</string>
 			<key>name</key>
 			<string>variable.language.coffee</string>
 		</dict>
