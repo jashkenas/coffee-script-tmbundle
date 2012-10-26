@@ -645,7 +645,7 @@
 					<key>end</key>
 					<string>\}</string>
 					<key>name</key>
-					<string>source.coffee.embedded.source</string>
+					<string>meta.embedded.line.coffee</string>
 					<key>patterns</key>
 					<array>
 						<dict>
