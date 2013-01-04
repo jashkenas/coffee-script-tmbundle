@@ -28,8 +28,24 @@
 		<dict>
 			<key>begin</key>
 			<string>(?x)^
+				(?=	([ ]{4}|\t)(?!$))</string>
+			<key>end</key>
+			<string>(?x)^
+				(?!	([ ]{4}|\t))</string>
+			<key>name</key>
+			<string>meta.block-raw.markdown</string>
+			<key>patterns</key>
+			<array>
+				<dict>
+					<key>include</key>
+					<string>#block_raw</string>
+				</dict>
+			</array>
+		</dict>
+		<dict>
+			<key>begin</key>
+			<string>(?x)^
 				(?=	[ ]{,3}&gt;.
-				|	([ ]{4}|\t)(?!$)
 				|	[#]{1,6}\s*+
 				|	[ ]{,3}(?&lt;marker&gt;[-*_])([ ]{,2}\k&lt;marker&gt;){2,}[ \t]*+$
 				)</string>
@@ -42,7 +58,6 @@
 			<key>end</key>
 			<string>(?x)^
 				(?!	[ ]{,3}&gt;.
-				|	([ ]{4}|\t)
 				|	[#]{1,6}\s*+
 				|	[ ]{,3}(?&lt;marker&gt;[-*_])([ ]{,2}\k&lt;marker&gt;){2,}[ \t]*+$
 				)</string>
@@ -53,10 +68,6 @@
 				<dict>
 					<key>include</key>
 					<string>#block_quote</string>
-				</dict>
-				<dict>
-					<key>include</key>
-					<string>#block_raw</string>
 				</dict>
 				<dict>
 					<key>include</key>
