@@ -33,7 +33,7 @@
 			<string>(?x)^
 				(?!	([ ]{4}|\t))</string>
 			<key>name</key>
-			<string>meta.block-raw.markdown</string>
+			<string>markup.raw.block.markdown</string>
 			<key>patterns</key>
 			<array>
 				<dict>
