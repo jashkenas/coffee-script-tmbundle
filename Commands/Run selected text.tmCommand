@@ -14,9 +14,22 @@ ${TM_COFFEE:=coffee} -s
 	<key>keyEquivalent</key>
 	<string>@R</string>
 	<key>name</key>
-	<string>Run selected text</string>
+	<string>Run Document / Selection</string>
 	<key>output</key>
 	<string>showAsTooltip</string>
+	<key>requiredCommands</key>
+	<array>
+		<dict>
+			<key>command</key>
+			<string>coffee</string>
+			<key>variable</key>
+			<string>TM_COFFEE</string>
+			<key>locations</key>
+			<array>
+				<string>/opt/local/bin/coffee</string>
+			</array>
+		</dict>
+	</array>
 	<key>scope</key>
 	<string>source.coffee</string>
 	<key>uuid</key>
