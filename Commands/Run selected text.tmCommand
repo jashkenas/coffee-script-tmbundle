@@ -14,7 +14,7 @@ ${TM_COFFEE:=coffee} -s
 	<key>keyEquivalent</key>
 	<string>@R</string>
 	<key>name</key>
-	<string>Run selected text</string>
+	<string>Run Document / Selection</string>
 	<key>output</key>
 	<string>showAsTooltip</string>
 	<key>scope</key>
