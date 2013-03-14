@@ -8,6 +8,7 @@
 	<array>
 		<string>litcoffee</string>
 		<string>litcoffee.erb</string>
+		<string>coffee.md</string>
 	</array>
 	<key>foldingStartMarker</key>
 	<string>(?x)
