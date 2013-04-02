@@ -432,7 +432,7 @@
 		</dict>
 		<dict>
 			<key>match</key>
-			<string>((?&lt;=console\.)(debug|warn|info|log|error|time|timeEnd|assert))\b</string>
+			<string>((?&lt;=console\.)(debug|warn|info|log|error|time|timeEnd|assert|trace))\b</string>
 			<key>name</key>
 			<string>support.function.console.coffee</string>
 		</dict>
