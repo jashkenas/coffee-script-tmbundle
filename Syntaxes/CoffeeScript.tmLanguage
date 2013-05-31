@@ -338,7 +338,7 @@
 			</dict>
 			<key>match</key>
 			<string>(?x)
-				(?<=^|\s)
+				(?&lt;=^|\s)
 				(?=[a-zA-Z\$_])
 				(
 					[a-zA-Z\$_](\w|\$|:|\.)*\s*
