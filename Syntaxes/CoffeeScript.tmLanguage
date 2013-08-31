@@ -182,7 +182,9 @@
 			</array>
 		</dict>
 		<dict>
-			<key>captures</key>
+			<key>begin</key>
+			<string>(#)(?!\{)</string>
+			<key>beginCaptures</key>
 			<dict>
 				<key>1</key>
 				<dict>
@@ -190,8 +192,8 @@
 					<string>punctuation.definition.comment.coffee</string>
 				</dict>
 			</dict>
-			<key>match</key>
-			<string>(#)(?!\{).*$\n?</string>
+			<key>end</key>
+			<string>\n</string>
 			<key>name</key>
 			<string>comment.line.number-sign.coffee</string>
 		</dict>
