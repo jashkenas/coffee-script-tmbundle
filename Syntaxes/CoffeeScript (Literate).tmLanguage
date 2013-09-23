@@ -425,7 +425,7 @@
 																	# Raw
 							  | \\[\\`*_{}\[\]()#.!+\-&gt;]?+			# Escapes
 							  | \[
-								(				
+								(
 								        (?&lt;square&gt;					# Named group
 											[^\[\]\\]				# Match most chars
 								          | \\.						# Escaped chars
@@ -858,7 +858,7 @@
 						</dict>
 					</dict>
 					<key>match</key>
-					<string>(\s*)(?=[a-zA-Z\$_])([a-zA-Z\$_](\w|\$|:|\.)*\s*(?=[:=](\s*\(.*\))?\s*((=|-)&gt;)))</string>
+					<string>(\s*)(?=@?[a-zA-Z\$_])(@?[a-zA-Z\$_](\w|\$|:|\.)*\s*(?=[:=](\s*\(.*\))?\s*((=|-)&gt;)))</string>
 					<key>name</key>
 					<string>meta.function.coffee</string>
 				</dict>
@@ -1166,7 +1166,7 @@
 			<key>match</key>
 			<string>(?x:
 				\!							# Images start with !
-				(\[)((?&lt;square&gt;[^\[\]\\]|\\.|\[\g&lt;square&gt;*+\])*+)(\])	
+				(\[)((?&lt;square&gt;[^\[\]\\]|\\.|\[\g&lt;square&gt;*+\])*+)(\])
 											# Match the link text.
 				([ ])?						# Space not allowed
 				(\()						# Opening paren for url
@@ -1337,7 +1337,7 @@
 																	# Raw
 							  | \\[\\`*_{}\[\]()#.!+\-&gt;]?+			# Escapes
 							  | \[
-								(				
+								(
 								        (?&lt;square&gt;					# Named group
 											[^\[\]\\]				# Match most chars
 								          | \\.						# Escaped chars
@@ -1588,7 +1588,7 @@
 			</dict>
 			<key>match</key>
 			<string>(?x:
-				(\[)((?&lt;square&gt;[^\[\]\\]|\\.|\[\g&lt;square&gt;*+\])*+)(\])	
+				(\[)((?&lt;square&gt;[^\[\]\\]|\\.|\[\g&lt;square&gt;*+\])*+)(\])
 											# Match the link text.
 				([ ])?						# Space not allowed
 				(\()						# Opening paren for url
