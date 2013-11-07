@@ -16,8 +16,8 @@
 		(.*class
 		|[a-zA-Z\$_](\w|\$|:|\.)*\s*(?=\:(\s*\(.*\))?\s*((=|-)&gt;\s*$)) # function that is not one line
 		|[a-zA-Z\$_](\w|\$|\.)*\s*(:|=)\s*((if|while)(?!.*?then)|for|$) # assignment using multiline if/while/for
-		|(if|else|unless|while)\b(?!.*?then)|for|loop\b
-		|(try|finally|catch\s+\S.*)\s*$
+		|(if|else|unless|while|when)\b(?!.*?then)|for|loop\b
+		|(try|finally|catch|switch\s+\S.*)\s*$
 		|.*[-=]&gt;$
 		|.*[\{\[]$)</string>
 	</dict>
