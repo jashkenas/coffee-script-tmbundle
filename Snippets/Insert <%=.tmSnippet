@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>content</key>
+	<string>&lt;%= ${0:$TM_SELECTED_TEXT} %&gt;</string>
+	<key>keyEquivalent</key>
+	<string>^&gt;</string>
+	<key>name</key>
+	<string>Insert &lt;%=</string>
+	<key>uuid</key>
+	<string>EFE8EA18-E1C8-4EF0-AA36-9E53F0041F46</string>
+</dict>
+</plist>
