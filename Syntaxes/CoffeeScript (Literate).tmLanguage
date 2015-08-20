@@ -92,7 +92,7 @@
 				</dict>
 			</dict>
 			<key>end</key>
-			<string>^(?=\S)</string>
+			<string>\G([ ]{4}|\t|$)</string>
 			<key>name</key>
 			<string>markup.list.unnumbered.markdown</string>
 			<key>patterns</key>
