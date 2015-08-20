@@ -1814,7 +1814,7 @@
 		</dict>
 	</dict>
 	<key>scopeName</key>
-	<string>source.litcoffee</string>
+	<string>text.litcoffee</string>
 	<key>uuid</key>
 	<string>70456B1D-AC94-4E9B-81AB-426F0D1ACB86</string>
 </dict>
