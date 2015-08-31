@@ -1,0 +1,5 @@
+[{
+	"keys": ["super+shift+r"],
+	"command": "coffee_compile",
+	"args": {}
+}]

@@ -1,0 +1,6 @@
+[
+{
+	"caption": "CoffeeScript: Compile",
+	"command": "coffee_compile"
+}
+]
