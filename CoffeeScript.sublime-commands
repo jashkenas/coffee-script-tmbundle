@@ -1,0 +1,10 @@
+[
+	{
+		"caption": "CoffeeScript: Compile and Display JS",
+		"command": "compile_and_display_js"
+	},
+	{
+		"caption": "CoffeeScript: Run",
+		"command": "run_coffee_script"
+	}
+]
